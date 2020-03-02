@@ -1,3 +1,21 @@
+
+Overview:
+In this assignment you will implement the Naive Bayes algorithm with maximum likelihood and
+MAP solutions and evaluate it using cross validation on the task of sentiment analysis (as in
+identifying positive/negative product reviews).
+Text Data for Sentiment Analysis:
+We will be using the Sentiment Labelled Sentences Data Set"1 that includes sentences labelled with
+sentiment (1 for positive and 0 for negative) extracted from three domains imdb.com, amazon.com,
+yelp.com. These form 3 datasets for the assignment.
+Each dataset is given in a single le, where each example is in one line of that le. Each such
+example is given as a list of space separated words, followed by a tab character (\t), followed by
+the label, and then by a newline (\n). Here is an example from the yelp dataset:
+Crust is not good. 0
+The data, which is hosted by the UCI machine learning repository, is linked through the course
+web page.
+
+
+
 Instruction to run the code
 
 1) The code has been split into different functions and all of it is inside the same .py file.
